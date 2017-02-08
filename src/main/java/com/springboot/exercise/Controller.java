@@ -9,6 +9,6 @@ public class Controller {
 
 	@RequestMapping(value="/", method=RequestMethod.GET)
 	public String viewHelloWorld(){
-		return "Hellow! Spring Boot";
+		return "Hellow! Spring Boot. This is spring boot base branch";
 	}
 }
